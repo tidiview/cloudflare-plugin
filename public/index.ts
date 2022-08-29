@@ -146,7 +146,7 @@ const HTML = `<!doctype html>
 				<p><b>NOTE:</b> On form submission, the API endpoint responds with a JSON representation of the data. There is no JavaScript running in this example.</p>
 			</blockquote>
 
-			<form data-static-form-name="submit" action="/submit">
+			<form data-static-form-name="submit" action="/api/submit">
 				<div class="input">
 					<label for="name">Full Name</label>
 					<input id="name" name="name" type="text" />
